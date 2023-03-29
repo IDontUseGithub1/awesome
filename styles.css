@@ -1,0 +1,26 @@
+body {
+background-color: #fdefd2;
+
+}
+
+html {
+font-family: sans-serif;
+}
+
+
+div {
+color:black;
+background-color: bisque;
+
+}
+
+
+
+p {
+color: tomato;
+
+}
+
+hr {
+ border: 2px solid #80c6d0;
+}
