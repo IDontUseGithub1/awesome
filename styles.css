@@ -14,13 +14,27 @@ background-color: bisque;
 
 }
 
+*{
+    color:black;
 
+}
 
 p {
-color: tomato;
+color: black;
+font-size: 18px;
+background-color: #c7dfbd;
 
 }
 
 hr {
- border: 2px solid #80c6d0;
+ border: 5px solid #80c6d0;
+ border-radius: 5px;
+
+}
+
+button{
+    font-size: 25px;
+    border-color: #80c6d0;
+    background-color: #c7dfbd;
+    color:black;
 }
