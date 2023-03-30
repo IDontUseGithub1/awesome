@@ -1,33 +1,33 @@
 body {
 background-color: #fdefd2;
-
+background-image: url(https://i.redd.it/qkiu86oypn571.png);
 }
 
 html {
 font-family: sans-serif;
 }
 
-
-div {
-color:black;
-background-color: bisque;
-
+header{
+    text-align: center;
 }
 
 *{
     color:black;
 
 }
-
+h2{
+    text-align: center;
+}
 p {
 color: black;
 font-size: 18px;
-background-color: #c7dfbd;
+background-color: #c7dfbd80;
+
 
 }
 
 hr {
- border: 5px solid #80c6d0;
+ border: 5px solid black;
  border-radius: 5px;
 
 }
@@ -35,6 +35,72 @@ hr {
 button{
     font-size: 25px;
     border-color: #80c6d0;
-    background-color: #c7dfbd;
+
     color:black;
+}
+
+
+.font-size{
+ font-size: 30px;
+}
+
+.odd{
+    background-color: #c7dfbd;
+}
+
+#two{
+    background-color: #dbbf6c;
+}
+
+#four{
+   background-color: #ecc4c4; 
+}
+
+
+.CMIYGL1,.CMIYGLTES{
+    font-size: 25px;
+    border-color: #80c6d0;
+    color:black; 
+}
+
+
+.CMIYGL1{
+
+    background-color: #dbbf6c;  
+}
+
+.CMIYGLTES{
+    background-color: #ecc4c4;
+}
+
+.avatar.proportioned{
+    width: 500px;
+    height: 500px;
+    
+}
+
+.avatar.Distorded{
+    width: 300px;
+    height: 200px;
+}
+
+.container .text{
+    background-color: #ecc4c4;
+    font-size: 25px;
+}
+
+
+.list{
+    font-size: large;
+    text-align:center;
+}
+
+.list ol {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+
+    zoom:1;
+    *display: inline;
+    
 }
