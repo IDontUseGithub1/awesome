@@ -104,3 +104,45 @@ button{
     *display: inline;
     
 }
+
+
+.button{
+    text-align: center;
+    font-size: medium;
+    border-width: 5px;
+    
+}
+
+.button.confirm{
+    border-width: 6px;
+background-color: #80c6d0;
+border-color:#80c6d0;
+}
+
+.button.cancel{
+background-color: #ecc4c4;
+border-color:#ecc4c4;
+
+}
+
+
+.para{
+    font-weight: bold;
+}
+
+.para.small-para{
+ font-size: small;
+}
+
+
+
+
+.stext{
+   font-style: italic;
+}
+
+
+.stext .stext.child {
+    font-size: small;
+    font-weight: bolder;
+}
