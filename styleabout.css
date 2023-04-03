@@ -169,22 +169,38 @@ border-color:#ecc4c4;
     font-weight: bolder;
 }
 
-.Normal{
-    background-color: #80c6d0 ;
-    width: 300px;
-    height: 50px;
-    border: 15px solid #ecc4c4;
-    margin: 250px;
-    padding: 50px;
-}
+.card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding: 8px;
 
-.awesome{
-    background-color: #80c6d0 ;
-    width: 300px;
-    height: 50px;
-    border: 15px solid #dbbf6c;
-    box-sizing: border-box;
-    margin: 250px;
-    padding: 50px;
-   
-}
+  }
+  
+  .content {    
+    margin-bottom: 8px;
+    background: #e3f4ff;
+  }
+  
+  .button-container {
+  text-align: center;
+    background: #e3f4ff;
+    padding: 16px 8px;
+  }
+  
+  button {
+    display: block;
+    background: white;
+    text-align: center;
+    border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
+  }
