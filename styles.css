@@ -71,7 +71,7 @@ button{
 
 
 .CMIYGL1{
-    
+  
     background-color: #dbbf6c;  
 }
 
@@ -160,8 +160,24 @@ border-color:#ecc4c4;
 }
 
 span{
-border: 1px solid black;
+border-width: 500px;
 background-color: #ecc4c4;
 
 
+}
+
+
+.Buttons{
+    border: 5px solid #fdefd2;
+    display: flex;
+}
+
+.Buttons > button{
+    padding: 5px;
+    flex: 1 1 200px;
+     
+}
+
+.Buttons .otherbutton{
+    flex: 10 1 200px;
 }
